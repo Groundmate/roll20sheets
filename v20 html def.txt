@@ -1,0 +1,1858 @@
+<input type="radio" name="attr_sheet_type" class="sheet-tab sheet-tab1" value="PRINCIPAL" checked/><span></span>
+<input type="radio" name="attr_sheet_type" class="sheet-tab sheet-tab2" value="ANOTAÇÕES" /><span></span>
+<select style="margin-left: 325px" name="attr_Whisper" class="Dice">
+	<option value="&nbsp;" selected>Rolagens Públicas</option>
+	<option value="/w gm">Rolagens Privadas</option>
+</select>
+<br><br>
+
+<div class="clear"></div>
+ <!-- Primary Sheet -->
+<div class="sheet-tab-content sheet-tab1">
+    <br>
+    <p style="text-align: center;">
+        <img src="https://vignette.wikia.nocookie.net/whitewolf/images/7/78/VampireMasqueradeV5Logo.png" style="max-height: 100px;" />
+    </p>
+    <br>
+ <!-- BASICS -->
+    <div class="sheet-all">
+        <div class="sheet-col sheet-attname1">
+            <h4>Nome:</h4>
+            <h4>Clã:</h4>
+            <h4>Seita:</h4>
+            <h4>Senhor:</h4>
+        </div>
+        <div class="sheet-col sheet-specb1">
+            <input type="text" class="sheet-spec" name="attr_Nome" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Cla" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Seita" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Senhor" style="text-align: center"/><br>
+        </div>
+        <div class="sheet-col sheet-attname2">
+            <h4>Geração:</h4>
+            <h4>Natureza:</h4>
+            <h4>Conduta:</h4>
+            <h4>Conceito:</h4>
+        </div>
+        <div class="sheet-col sheet-specb2">
+            <input type="text" class="sheet-spec" name="attr_Geracao" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Natureza" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Conduta" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Conceito" style="text-align: center"/><br>
+        </div>
+        <div class="sheet-col sheet-attname3">
+            <h4>Idade:</h4>
+            <h4>Medidas:</h4>
+            <h4>Crônica:</h4>
+            <h4>Jogador:</h4>
+        </div>
+        <div class="sheet-col sheet-specb3">
+            <input type="text" class="sheet-spec" name="attr_Idade" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Medidas" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Cronica" style="text-align: center"/><br>
+            <input type="text" class="sheet-spec" name="attr_Jogador" style="text-align: center"/>
+        </div>
+    </div>
+    <hr/>
+    <h1>Atributos</h1>
+    <div>
+        <div class="sheet-3colrow">
+            <div class="sheet-col">
+                <h3 style="text-align: center">Físicos</h3>
+            </div>
+            <div class="sheet-col">
+                <h3 style="text-align: center">Sociais</h3>
+            </div>
+            <div class="sheet-col">
+                <h3 style="text-align: center">Mentais</h3>
+            </div>
+        </div>
+        <div class="sheet-colrow" >
+            <div class="sheet-col sheet-attname1">
+                <h4>Força</h4>
+                <h4>Destreza</h4>
+                <h4>Vigor</h4>
+            </div>
+            <div class="sheet-col sheet-attdots1">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Strength" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Strength" value="2" /><span></span>
+                    <input type="radio" name="attr_Strength" value="3" /><span></span>
+                    <input type="radio" name="attr_Strength" value="4" /><span></span>
+                    <input type="radio" name="attr_Strength" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Dexterity" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Dexterity" value="2" /><span></span>
+                    <input type="radio" name="attr_Dexterity" value="3" /><span></span>
+                    <input type="radio" name="attr_Dexterity" value="4" /><span></span>
+                    <input type="radio" name="attr_Dexterity" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Stamina" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Stamina" value="2" /><span></span>
+                    <input type="radio" name="attr_Stamina" value="3" /><span></span>
+                    <input type="radio" name="attr_Stamina" value="4" /><span></span>
+                    <input type="radio" name="attr_Stamina" value="5" /><span></span>
+                </div>
+            </div>
+            <div class="sheet-col sheet-specat1">
+                <input type="text" name="attr_Stre_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Dext_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Stam_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+            </div>
+            <div class="sheet-col sheet-attname2">
+                <h4>Carisma</h4>
+                <h4>Manipulação</h4>
+                <h4>Aparência</h4>
+            </div>
+            <div class="sheet-col sheet-attdots2">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Charisma" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Charisma" value="2" /><span></span>
+                    <input type="radio" name="attr_Charisma" value="3" /><span></span>
+                    <input type="radio" name="attr_Charisma" value="4" /><span></span>
+                    <input type="radio" name="attr_Charisma" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Manipulation" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Manipulation" value="2" /><span></span>
+                    <input type="radio" name="attr_Manipulation" value="3" /><span></span>
+                    <input type="radio" name="attr_Manipulation" value="4" /><span></span>
+                    <input type="radio" name="attr_Manipulation" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Appearance" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Appearance" value="2" /><span></span>
+                    <input type="radio" name="attr_Appearance" value="3" /><span></span>
+                    <input type="radio" name="attr_Appearance" value="4" /><span></span>
+                    <input type="radio" name="attr_Appearance" value="5" /><span></span>
+                </div>
+            </div>
+            <div class="sheet-col sheet-specat2">
+                <input type="text" name="attr_Char_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Mani_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Appe_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+            </div>
+            <div class="sheet-col sheet-attname3">
+                <h4>Percepção</h4>
+                <h4>Inteligência</h4>
+                <h4>Raciocínio</h4>
+            </div>
+            <div class="sheet-col sheet-attdots3">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Perception" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Perception" value="2" /><span></span>
+                    <input type="radio" name="attr_Perception" value="3" /><span></span>
+                    <input type="radio" name="attr_Perception" value="4" /><span></span>
+                    <input type="radio" name="attr_Perception" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Intelligence" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Intelligence" value="2" /><span></span>
+                    <input type="radio" name="attr_Intelligence" value="3" /><span></span>
+                    <input type="radio" name="attr_Intelligence" value="4" /><span></span>
+                    <input type="radio" name="attr_Intelligence" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Wits" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Wits" value="2" /><span></span>
+                    <input type="radio" name="attr_Wits" value="3" /><span></span>
+                    <input type="radio" name="attr_Wits" value="4" /><span></span>
+                    <input type="radio" name="attr_Wits" value="5" /><span></span>
+                </div>
+            </div>
+            <div class="sheet-col sheet-specat3">
+                <input type="text" name="attr_Perc_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Inte_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Wits_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <h1>Habilidades</h1>
+    <div>
+        <div class="sheet-3colrow">
+            <div class="sheet-col">
+                <h3 style="text-align: center">Talentos</h3>
+            </div>
+            <div class="sheet-col">
+                <h3 style="text-align: center">Perícias</h3>
+            </div>
+            <div class="sheet-col">
+                <h3 style="text-align: center">Conhecimentos</h3>
+            </div>
+        </div>
+        <div class="sheet-colrow">
+            <div class="sheet-col sheet-abiname1">
+                <h4 >Acuidade</h4>
+                <h4 >Briga</h4>
+                <h4 >Empatia</h4>
+                <h4 >Esportes</h4>
+                <h4 ><i>Expressão</i></h4>
+                <h4 >Intimidação</h4>
+                <h4 >Lábia</h4>
+                <h4 >Liderança</h4>
+                <h4 >Manha</h4>
+                <h4 >Prontidão</h4>
+            </div>
+            <div class="sheet-col sheet-abidots1">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Acuidade" value="0" class=" zero" checked/><span></span>
+                    <input type="radio" name="attr_Acuidade" value="1" /><span></span>
+                    <input type="radio" name="attr_Acuidade" value="2" /><span></span>
+                    <input type="radio" name="attr_Acuidade" value="3" /><span></span>
+                    <input type="radio" name="attr_Acuidade" value="4" /><span></span>
+                    <input type="radio" name="attr_Acuidade" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Briga" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Briga" value="1" /><span></span>
+                    <input type="radio" name="attr_Briga" value="2" /><span></span>
+                    <input type="radio" name="attr_Briga" value="3" /><span></span>
+                    <input type="radio" name="attr_Briga" value="4" /><span></span>
+                    <input type="radio" name="attr_Briga" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Empatia" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Empatia" value="1" /><span></span>
+                    <input type="radio" name="attr_Empatia" value="2" /><span></span>
+                    <input type="radio" name="attr_Empatia" value="3" /><span></span>
+                    <input type="radio" name="attr_Empatia" value="4" /><span></span>
+                    <input type="radio" name="attr_Empatia" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Esportes" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Esportes" value="1" /><span></span>
+                    <input type="radio" name="attr_Esportes" value="2" /><span></span>
+                    <input type="radio" name="attr_Esportes" value="3" /><span></span>
+                    <input type="radio" name="attr_Esportes" value="4" /><span></span>
+                    <input type="radio" name="attr_Esportes" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Expressão" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Expressão" value="1" /><span></span>
+                    <input type="radio" name="attr_Expressão" value="2" /><span></span>
+                    <input type="radio" name="attr_Expressão" value="3" /><span></span>
+                    <input type="radio" name="attr_Expressão" value="4" /><span></span>
+                    <input type="radio" name="attr_Expressão" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Intimidacao" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Intimidacao" value="1" /><span></span>
+                    <input type="radio" name="attr_Intimidacao" value="2" /><span></span>
+                    <input type="radio" name="attr_Intimidacao" value="3" /><span></span>
+                    <input type="radio" name="attr_Intimidacao" value="4" /><span></span>
+                    <input type="radio" name="attr_Intimidacao" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Labia" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Labia" value="1" /><span></span>
+                    <input type="radio" name="attr_Labia" value="2" /><span></span>
+                    <input type="radio" name="attr_Labia" value="3" /><span></span>
+                    <input type="radio" name="attr_Labia" value="4" /><span></span>
+                    <input type="radio" name="attr_Labia" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Lideranca" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Lideranca" value="1" /><span></span>
+                    <input type="radio" name="attr_Lideranca" value="2" /><span></span>
+                    <input type="radio" name="attr_Lideranca" value="3" /><span></span>
+                    <input type="radio" name="attr_Lideranca" value="4" /><span></span>
+                    <input type="radio" name="attr_Lideranca" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Manha" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Manha" value="1" /><span></span>
+                    <input type="radio" name="attr_Manha" value="2" /><span></span>
+                    <input type="radio" name="attr_Manha" value="3" /><span></span>
+                    <input type="radio" name="attr_Manha" value="4" /><span></span>
+                    <input type="radio" name="attr_Manha" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Prontidao" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Prontidao" value="1" /><span></span>
+                    <input type="radio" name="attr_Prontidao" value="2" /><span></span>
+                    <input type="radio" name="attr_Prontidao" value="3" /><span></span>
+                    <input type="radio" name="attr_Prontidao" value="4" /><span></span>
+                    <input type="radio" name="attr_Prontidao" value="5" /><span></span>
+                </div>
+            </div>
+            <div class="sheet-col sheet-specab1">
+                <input type="text" name="attr_Acuidade_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Briga_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Empatia_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Esportes_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Expressão_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Intimidacao_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Labia_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Lideranca_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Manha_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+                <input type="text" name="attr_Prontidao_Spec" class="sheet-spec" style="text-align: center; font-style: italic"/>
+            </div>
+            <div class="sheet-col sheet-abiname2">
+                <h4 >Adestramento</h4>
+                <h4 >A. Brancas</h4>
+                <h4 >A. de Fogo</h4>
+                <h4 >Condução</h4>
+                <h4 >Etiqueta</h4>
+                <h4 >Furtividade</h4>
+                <h4 ><i>Ofícios<i></h4>
+                <h4 ><i>Performance</i></h4>
+                <h4 >Segurança</h4>
+                <h4 >Sobrevivência</h4>
+            </div>
+            <div class="sheet-col sheet-abidots2">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Adestramento" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Adestramento" value="1" /><span></span>
+                    <input type="radio" name="attr_Adestramento" value="2" /><span></span>
+                    <input type="radio" name="attr_Adestramento" value="3" /><span></span>
+                    <input type="radio" name="attr_Adestramento" value="4" /><span></span>
+                    <input type="radio" name="attr_Adestramento" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_ABrancas" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_ABrancas" value="1" /><span></span>
+                    <input type="radio" name="attr_ABrancas" value="2" /><span></span>
+                    <input type="radio" name="attr_ABrancas" value="3" /><span></span>
+                    <input type="radio" name="attr_ABrancas" value="4" /><span></span>
+                    <input type="radio" name="attr_ABrancas" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Disparo" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disparo" value="1" /><span></span>
+                    <input type="radio" name="attr_Disparo" value="2" /><span></span>
+                    <input type="radio" name="attr_Disparo" value="3" /><span></span>
+                    <input type="radio" name="attr_Disparo" value="4" /><span></span>
+                    <input type="radio" name="attr_Disparo" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Conducao" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Conducao" value="1" /><span></span>
+                    <input type="radio" name="attr_Conducao" value="2" /><span></span>
+                    <input type="radio" name="attr_Conducao" value="3" /><span></span>
+                    <input type="radio" name="attr_Conducao" value="4" /><span></span>
+                    <input type="radio" name="Furtividade" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Etiqueta" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Etiqueta" value="1" /><span></span>
+                    <input type="radio" name="attr_Etiqueta" value="2" /><span></span>
+                    <input type="radio" name="attr_Etiqueta" value="3" /><span></span>
+                    <input type="radio" name="attr_Etiqueta" value="4" /><span></span>
+                    <input type="radio" name="attr_Etiqueta" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Furtividade" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Furtividade" value="1" /><span></span>
+                    <input type="radio" name="attr_Furtividade" value="2" /><span></span>
+                    <input type="radio" name="attr_Furtividade" value="3" /><span></span>
+                    <input type="radio" name="attr_Furtividade" value="4" /><span></span>
+                    <input type="radio" name="attr_Furtividade" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Oficio" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Oficio" value="1" /><span></span>
+                    <input type="radio" name="attr_Oficio" value="2" /><span></span>
+                    <input type="radio" name="attr_Oficio" value="3" /><span></span>
+                    <input type="radio" name="attr_Oficio" value="4" /><span></span>
+                    <input type="radio" name="attr_Oficio" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Performance" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Performance" value="1" /><span></span>
+                    <input type="radio" name="attr_Performance" value="2" /><span></span>
+                    <input type="radio" name="attr_Performance" value="3" /><span></span>
+                    <input type="radio" name="attr_Performance" value="4" /><span></span>
+                    <input type="radio" name="attr_Performance" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Seguranca" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Seguranca" value="1" /><span></span>
+                    <input type="radio" name="attr_Seguranca" value="2" /><span></span>
+                    <input type="radio" name="attr_Seguranca" value="3" /><span></span>
+                    <input type="radio" name="attr_Seguranca" value="4" /><span></span>
+                    <input type="radio" name="attr_Seguranca" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Sobrevivencia" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Sobrevivencia" value="1" /><span></span>
+                    <input type="radio" name="attr_Sobrevivencia" value="2" /><span></span>
+                    <input type="radio" name="attr_Sobrevivencia" value="3" /><span></span>
+                    <input type="radio" name="attr_Sobrevivencia" value="4" /><span></span>
+                    <input type="radio" name="attr_Sobrevivencia" value="5" /><span></span>
+                </div>
+
+            </div>
+            <div class="sheet-col sheet-specab2">
+                <input type="text" name="attr_Adestramento_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_ABrancas_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Disparo_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Conducao_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Etiqueta_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Furtividade_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Oficio_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Performance_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Seguranca_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Sobrevivencia_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+            </div>
+            <div class="sheet-col sheet-abiname3">
+                <h4 ><i>Acadêmico</i></h4>
+                <h4 ><i>Científico</i></h4>
+                <h4 >Computacional</h4>
+                <h4 >Financeiro</h4>
+                <h4 >Investigativo</h4>
+                <h4 ><i>Legal</i></h4>
+                <h4 >Médico</h4>
+                <h4 >Oculto</h4>
+                <h4 >Político</h4>
+                <h4 ><i>Tecnológico</i></h4>
+            </div>
+            <div class="sheet-col sheet-abidots3">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Academico" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Academico" value="1" /><span></span>
+                    <input type="radio" name="attr_Academico" value="2" /><span></span>
+                    <input type="radio" name="attr_Academico" value="3" /><span></span>
+                    <input type="radio" name="attr_Academico" value="4" /><span></span>
+                    <input type="radio" name="attr_Academico" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Cientifico" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Cientifico" value="1" /><span></span>
+                    <input type="radio" name="attr_Cientifico" value="2" /><span></span>
+                    <input type="radio" name="attr_Cientifico" value="3" /><span></span>
+                    <input type="radio" name="attr_Cientifico" value="4" /><span></span>
+                    <input type="radio" name="attr_Cientifico" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Computacional" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Computacional" value="1" /><span></span>
+                    <input type="radio" name="attr_Computacional" value="2" /><span></span>
+                    <input type="radio" name="attr_Computacional" value="3" /><span></span>
+                    <input type="radio" name="attr_Computacional" value="4" /><span></span>
+                    <input type="radio" name="attr_Computacional" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Financeiro" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Financeiro" value="1" /><span></span>
+                    <input type="radio" name="attr_Financeiro" value="2" /><span></span>
+                    <input type="radio" name="attr_Financeiro" value="3" /><span></span>
+                    <input type="radio" name="attr_Financeiro" value="4" /><span></span>
+                    <input type="radio" name="attr_Financeiro" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Investigativo" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Investigativo" value="1" /><span></span>
+                    <input type="radio" name="attr_Investigativo" value="2" /><span></span>
+                    <input type="radio" name="attr_Investigativo" value="3" /><span></span>
+                    <input type="radio" name="attr_Investigativo" value="4" /><span></span>
+                    <input type="radio" name="attr_Investigativo" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Legal" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Legal" value="1" /><span></span>
+                    <input type="radio" name="attr_Legal" value="2" /><span></span>
+                    <input type="radio" name="attr_Legal" value="3" /><span></span>
+                    <input type="radio" name="attr_Legal" value="4" /><span></span>
+                    <input type="radio" name="attr_Legal" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Medico" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Medico" value="1" /><span></span>
+                    <input type="radio" name="attr_Medico" value="2" /><span></span>
+                    <input type="radio" name="attr_Medico" value="3" /><span></span>
+                    <input type="radio" name="attr_Medico" value="4" /><span></span>
+                    <input type="radio" name="attr_Medico" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Oculto" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Oculto" value="1" /><span></span>
+                    <input type="radio" name="attr_Oculto" value="2" /><span></span>
+                    <input type="radio" name="attr_Oculto" value="3" /><span></span>
+                    <input type="radio" name="attr_Oculto" value="4" /><span></span>
+                    <input type="radio" name="attr_Oculto" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Politico" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Politico" value="1" /><span></span>
+                    <input type="radio" name="attr_Politico" value="2" /><span></span>
+                    <input type="radio" name="attr_Politico" value="3" /><span></span>
+                    <input type="radio" name="attr_Politico" value="4" /><span></span>
+                    <input type="radio" name="attr_Politico" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Tecnologico" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Tecnologico" value="1" /><span></span>
+                    <input type="radio" name="attr_Tecnologico" value="2" /><span></span>
+                    <input type="radio" name="attr_Tecnologico" value="3" /><span></span>
+                    <input type="radio" name="attr_Tecnologico" value="4" /><span></span>
+                    <input type="radio" name="attr_Tecnologico" value="5" /><span></span>
+                </div>
+            </div>
+            <div class="sheet-col sheet-specab3">
+                <input type="text" name="attr_Academico_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Cientifico_spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Computacional_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Financeiro_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Investigativo_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Legal_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Medico_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Oculto_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Político_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+                <input type="text" name="attr_Tecnologico_Spec" class="sheet-spec" style="text-align: center; font-style: italic";/>
+
+            </div>
+        </div>
+    </div>
+    <hr/>
+    
+    <h1>Vantagens</h1>
+    <div class="sheet-3colrow">
+        <!-- left colunm -->
+        <div class="sheet-col">
+            <h3 align="center">Antecedentes</h3>
+            <div class="sheet-backot">
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back1_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back1" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back1" value="1" /><span></span>
+                    <input type="radio" name="attr_Back1" value="2" /><span></span>
+                    <input type="radio" name="attr_Back1" value="3" /><span></span>
+                    <input type="radio" name="attr_Back1" value="4" /><span></span>
+                    <input type="radio" name="attr_Back1" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back2_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back2" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back2" value="1" /><span></span>
+                    <input type="radio" name="attr_Back2" value="2" /><span></span>
+                    <input type="radio" name="attr_Back2" value="3" /><span></span>
+                    <input type="radio" name="attr_Back2" value="4" /><span></span>
+                    <input type="radio" name="attr_Back2" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back3_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back3" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back3" value="1" /><span></span>
+                    <input type="radio" name="attr_Back3" value="2" /><span></span>
+                    <input type="radio" name="attr_Back3" value="3" /><span></span>
+                    <input type="radio" name="attr_Back3" value="4" /><span></span>
+                    <input type="radio" name="attr_Back3" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back4_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back4" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back4" value="1" /><span></span>
+                    <input type="radio" name="attr_Back4" value="2" /><span></span>
+                    <input type="radio" name="attr_Back4" value="3" /><span></span>
+                    <input type="radio" name="attr_Back4" value="4" /><span></span>
+                    <input type="radio" name="attr_Back4" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back5_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back5" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back5" value="1" /><span></span>
+                    <input type="radio" name="attr_Back5" value="2" /><span></span>
+                    <input type="radio" name="attr_Back5" value="3" /><span></span>
+                    <input type="radio" name="attr_Back5" value="4" /><span></span>
+                    <input type="radio" name="attr_Back5" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back6_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back6" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back6" value="1" /><span></span>
+                    <input type="radio" name="attr_Back6" value="2" /><span></span>
+                    <input type="radio" name="attr_Back6" value="3" /><span></span>
+                    <input type="radio" name="attr_Back6" value="4" /><span></span>
+                    <input type="radio" name="attr_Back6" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Back7_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back7" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back7" value="1" /><span></span>
+                    <input type="radio" name="attr_Back7" value="2" /><span></span>
+                    <input type="radio" name="attr_Back7" value="3" /><span></span>
+                    <input type="radio" name="attr_Back7" value="4" /><span></span>
+                    <input type="radio" name="attr_Back7" value="5" /><span></span>
+                </div>
+                 <div class="sheet-row">
+                    <input type="text" name="attr_Back8_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Back8" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Back8" value="1" /><span></span>
+                    <input type="radio" name="attr_Back8" value="2" /><span></span>
+                    <input type="radio" name="attr_Back8" value="3" /><span></span>
+                    <input type="radio" name="attr_Back8" value="4" /><span></span>
+                    <input type="radio" name="attr_Back8" value="5" /><span></span>
+                </div>
+                
+            <br></div>
+            
+            
+            <h3 align="center">Disciplinas</h3>
+            <div class="sheet-backot">
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc1_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc1" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc1" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc1" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc1" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc1" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc1" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc2_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc2" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc2" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc2" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc2" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc2" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc2" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc3_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc3" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc3" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc3" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc3" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc3" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc3" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc4_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc4" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc4" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc4" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc4" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc4" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc4" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc5_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc5" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc5" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc5" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc5" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc5" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc5" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc6_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc6" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc6" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc6" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc6" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc6" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc6" value="5" /><span></span>
+                </div>
+                <div class="sheet-row">
+                    <input type="text" name="attr_Disc7_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc7" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc7" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc7" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc7" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc7" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc7" value="5" /><span></span>
+                </div>
+                 <div class="sheet-row">
+                    <input type="text" name="attr_Disc8_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+                    <input type="radio" name="attr_Disc8" value="0" class="zero" checked/><span></span>
+                    <input type="radio" name="attr_Disc8" value="1" /><span></span>
+                    <input type="radio" name="attr_Disc8" value="2" /><span></span>
+                    <input type="radio" name="attr_Disc8" value="3" /><span></span>
+                    <input type="radio" name="attr_Disc8" value="4" /><span></span>
+                    <input type="radio" name="attr_Disc8" value="5" /><span></span>
+                </div>
+                
+            <br></div>
+
+            
+            <br>
+            <br>
+            <div class="sheet-qed">
+            <h3 align="center">Qualidades</h3>
+            <textarea name="attr_merits" style="margin-left: -1px; height: 120px; text-align: justify"></textarea>
+            </div>
+            
+            <div class="sheet-qed">
+            <h3 align="center">Defeitos</h3>
+            <textarea name="attr_flaws" style="margin-left: -1px; height: 120px; text-align: justify"></textarea>
+            </div>
+
+            
+        </div>
+        <!-- middle colunm -->
+        <div class="sheet-col" align="center">
+            
+            <h3 style="margin-left: 10x">Trilha</h3>
+            <input type="text" name="attr_Trilha_name" class="sheet-backnameot" style="font-weight: bold; text-align: center"/>
+            <div align="center" style="margin-left: 0px">
+                <input type="radio" name="attr_Trilha" value="1" /><span></span>
+                <input type="radio" name="attr_Trilha" value="2" checked/><span></span>
+                <input type="radio" name="attr_Trilha" value="3" /><span></span>
+                <input type="radio" name="attr_Trilha" value="4" /><span></span>
+                <input type="radio" name="attr_Trilha" value="5"  /><span></span>
+                <input type="radio" name="attr_Trilha" value="6" /><span></span>
+                <input type="radio" name="attr_Trilha" value="7" /><span></span>
+                <input type="radio" name="attr_Trilha" value="8" /><span></span>
+                <input type="radio" name="attr_Trilha" value="9" /><span></span>
+                <input type="radio" name="attr_Trilha" value="10" /><span></span>
+            </div>
+             <table style="width:100%; margin-left: 39px; margin-top: 5px">
+                 <tr>
+                 <td>
+                     <h5>Influência:</h5>
+                    </td>
+                    <td>
+                     <input type="text" name="attr_Influencia_name" class="sheet-backnameot" style="width: 45%; font-weight: bold; text-align: center"/>
+                     <input type="text" name="attr_Influencia_value" class="sheet-backnameot" style="width: 12%; font-weight: bold; text-align: center"/>
+                 </td>
+                 </tr>
+                 </table>
+            <br>
+        
+    
+            <h3 style="margin-left: 10x">Força de Vontade</h3>
+            <div align="center" style="margin-left: 19px">
+                <input type="radio" name="attr_Willpower" value="1" checked/><span></span>
+                <input type="radio" name="attr_Willpower" value="2" /><span></span>
+                <input type="radio" name="attr_Willpower" value="3" /><span></span>
+                <input type="radio" name="attr_Willpower" value="4" /><span></span>
+                <input type="radio" name="attr_Willpower" value="5"  /><span></span>
+                <input type="radio" name="attr_Willpower" value="6" /><span></span>
+                <input type="radio" name="attr_Willpower" value="7" /><span></span>
+                <input type="radio" name="attr_Willpower" value="8" /><span></span>
+                <input type="radio" name="attr_Willpower" value="9" /><span></span>
+                <input type="radio" name="attr_Willpower" value="10" /><span></span>
+                <button type='roll' class="DP" name='roll_WillRoll' value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle}} {{name}} {{Sucessos=[[ ( @{Willpower}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+            </div>
+            <div align="center" style="margin-left: -28px">
+                <input type="radio" name="attr_Willpower_Used" value="0" class="zero" checked/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="1" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="2" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="3" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="4" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="5" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="6" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="7" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="8" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="9" class="used"/><span></span>
+                <input type="radio" name="attr_Willpower_Used" value="10" class="used"/><span></span>
+            </div>
+            <br>
+            
+            <h3 align="center" style="margin-left: -5px">Pontos de Sangue</h3>
+            <div align="center">
+                
+               <div align="center" style="margin-left:-15px">
+		<input type="radio" name="attr_BloodPool" value="0" class=" zero" checked/><span></span> <input type="radio" name="attr_BloodPool" value="1" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="2" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="3" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="4" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="5" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="6" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="7" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="8" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="9" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="10" class=" used1"/><span></span><br>
+	
+		 <input type="radio" name="attr_BloodPool" value="11" class=" used1" style="margin-left:5px"/><span></span> <input type="radio" name="attr_BloodPool" value="12" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="13" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="14" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="15" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="16" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="17" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="18" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="19" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="20" class=" used1"/><span></span><br>
+		 <input type="radio" name="attr_BloodPool" value="22" class=" used1" style="margin-left:5px"/><span></span> <input type="radio" name="attr_BloodPool" value="22" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="23" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="24" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="25" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="26" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="27" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="28" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="29" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="30" class=" used1"/><span></span><br>
+		 <input type="radio" name="attr_BloodPool" value="33" class=" used1" style="margin-left:5px"/><span></span> <input type="radio" name="attr_BloodPool" value="32" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="33" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="34" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="35" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="36" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="37" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="38" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="39" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="40" class=" used1"/><span></span><br>
+		 <input type="radio" name="attr_BloodPool" value="44" class=" used1" style="margin-left:5px"/><span></span> <input type="radio" name="attr_BloodPool" value="42" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="43" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="44" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="45" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="46" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="47" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="48" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="49" class=" used1"/><span></span> <input type="radio" name="attr_BloodPool" value="50" class=" used1"/><span></span><br>
+	</div>
+                
+                
+                
+                </div>
+            
+        
+            <br>
+            <h3 style="margin-left: 0px">Testes</h3>
+            <div>
+                <div align="center"></div>
+                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atributo <input type="text" style="margin-left:-20px" class="sheet-DPspace"/> Habilidade&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+                <!-- DP1 -->
+                <div></div>
+                <div class="sheet-rowdp1">
+                                        <select name="attr_DPAtt1" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi1" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+<button type='roll' name='roll_DP1Roll' class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt1}+@{DPAbi1}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>                <div class="sheet-rowdp1">
+                    </div>
+
+                    <select name="attr_DPAtt2" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}" >Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi2" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type='roll' name='roll_DP2Roll' class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt2}+@{DPAbi2}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP3 -->
+                <div class="sheet-rowdp1">
+                    <select name="attr_DPAtt3" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}" >Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi3" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type='roll' name='roll_DP3Roll' class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt3}+@{DPAbi3}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP4 -->
+                <div class="sheet-rowdp1">
+                    <select name="attr_DPAtt4" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}" >Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi4" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type='roll' name='roll_DP4Roll' class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt4}+@{DPAbi4}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP5 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt5" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi5" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP5Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt5}+@{DPAbi5}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP6 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt6" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi6" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP6Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt6}+@{DPAbi6}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP7 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt7" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi7" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP7Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt7}+@{DPAbi7}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP8 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt8" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi8" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP8Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt8}+@{DPAbi8}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP9 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt9" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi9" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP9Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt9}+@{DPAbi9}+@{Health}+?{Modificador|0} )d9s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP10 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt10" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi10" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP10Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt10}+@{DPAbi10}+@{Health}+?{Modificador|0} )d10s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP11 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt11" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi11" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP11Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt11}+@{DPAbi11}+@{Health}+?{Modificador|0} )d13s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP12 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt12" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi12" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP12Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt12}+@{DPAbi12}+@{Health}+?{Modificador|0} )d12s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP13 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt13" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi13" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP13Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt13}+@{DPAbi13}+@{Health}+?{Modificador|0} )d13s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP14 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt14" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi14" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP14Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt14}+@{DPAbi14}+@{Health}+?{Modificador|0} )d13s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP15 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt15" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi15" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP15Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt15}+@{DPAbi15}+@{Health}+?{Modificador|0} )d13s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+                <!-- DP16 -->
+                <div class="sheet-rowdp1">
+                    <div align="center"></div>
+                    <select name="attr_DPAtt16" class="DP">
+                        <option></option>
+                        <option value="@{Appearance}">Aparência</option>
+                        <option value="@{Charisma}">Carisma</option>
+                        <option value="@{Dexterity}">Destreza</option>
+                        <option value="@{Strength}">Força</option>
+                        <option value="@{Intelligence}">Inteligência</option>
+                        <option value="@{Manipulation}">Manipulação</option>
+                        <option value="@{Perception}">Percepção</option>
+                        <option value="@{Wits}">Raciocinio</option>
+                        <option value="@{Stamina}">Vigor</option>
+                    </select>
+                    <select name="attr_DPAbi16" class="DP">
+                        <option></option>
+                        <option value="@{Academico}">Acadêmico</option>
+                        <option value="@{Acuidade}">Acuidade</option>
+                        <option value="@{Adestramento}"> Adestramento</option>
+                        <option value="@{ABrancas}"> Armas Brancas</option>
+                        <option value="@{AFogo}">Armas de Fogo</option>
+                        <option value="@{Briga}">Briga</option>
+                        <option value="@{Computacional}">Computacional</option>
+                        <option value="@{Conducao}">Condução</option>
+                        <option value="@{Empatia}">Empatia</option>
+                        <option value="@{Esportes}">Esportes</option>
+                        <option value="@{Etiqueta}">Etiqueta</option>
+                        <option value="@{Expressao}">Expressão</option>
+                        <option value="@{Financeiro}">Financeiro</option>
+                        <option value="@{Furtividade}">Furtividade</option>
+                        <option value="@{Intimidacao}">Intimidação</option>
+                        <option value="@{Investigativo}">Investigativo</option>
+                        <option value="@{Labia}">Lábia</option>
+                        <option value="@{Legal}">Legal</option>
+                        <option value="@{Lideranca}">Liderança</option>
+                        <option value="@{Manha}">Manha</option>
+                        <option value="@{Medico}">Médico</option>
+                        <option value="@{Oculto}">Oculto</option>
+                        <option value="@{Oficio}">Ofícios</option>
+                        <option value="@{Performance}">Performance</option>
+                        <option value="@{Politico}">Político</option>
+                        <option value="@{Prontidao}">Prontidão</option>
+                        <option value="@{Seguranca}">Segurança</option>
+                        <option value="@{Sobrevivencia}">Sobrevivência</option>
+                        <option value="@{Tecnologico}">Tecnológico</option>
+                    </select>
+                    <button type="roll" name="roll_DP16Roll" class="DP" value="@{Whisper} &{template:generic} {{character_name=@{character_name}}} {{character_id=@{character_id}}} {{subtitle=?{Descrição|}}} {{name}} {{Sucessos=[[ ( @{DPAtt16}+@{DPAbi16}+@{Health}+?{Modificador|0} )d13s>?{Dificuldade|6}f1 ]] }}"></button>
+                </div>
+
+
+
+
+
+
+                
+                
+            
+            </div>
+        </div>
+        <div class="sheet-col">
+            <h3>Vitalidade</h3>
+            <div class="sheet-health">
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Escoriado
+                    <select name="attr_Bruised" class="sheet-health">
+                        <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select>
+                    <input type="radio" class="sheet-Hbut sheet-Hbut0" name="attr_Health" value="0" checked/><span></span>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Machucado
+                    <select name="attr_Hurt" class="sheet-health">
+                        <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select>
+                    <input type="radio" class="sheet-Hbut sheet-Hbut1" name="attr_Health" value="-1" /><span></span>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Ferido
+                    <select name="attr_Injured" class="sheet-health">
+                        <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Ferido Gravemente
+                    <select name="attr_Wounded" class="sheet-health">
+                       <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select>
+                    <input type="radio" class="sheet-Hbut sheet-Hbut2" name="attr_Health" value="-2" /><span></span>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Espancado
+                    <select name="attr_Mauled" class="sheet-health">
+                        <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select></span>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Aleijado
+                    <select name="attr_Crippled" class="sheet-health">
+                        <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select>
+                    <input type="radio" class="sheet-Hbut sheet-Hbut5" name="attr_Health" value="-5" /><span></span>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Incapacitado
+                    <select name="attr_Incapacitated" class="sheet-health">
+                        <option></option>
+                        <option value="Bashing">/</option>
+                        <option value="Lethal">X</option>
+                        <option value="Aggravated">✱</option>
+                    </select>
+                    <input type="radio" class="sheet-Hbut sheet-HbutI" name="attr_Health" value="INCAPACITADO"/><span></span>
+                    </h4>
+                </div>
+            </div>
+            <br>
+            <div class="sheet-health">
+                <div class="sheet-row">
+                    
+                </div>
+                <div class="sheet-row">
+                    
+                
+                    
+                </div>
+            </div>
+            <br>
+            <h3>Experiência</h3>
+            <div class="sheet-health">
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Pontuação Atual:
+                    <input type="text" class="sheet-Hbutx" name="attr_XPA" style="font-weight: bold; text-align: center"/>
+                    </h4>
+                </div>
+                <div class="sheet-row">
+                    <h4 class="sheet-health">Pontuação Total:
+                    <input type="text" class="sheet-Hbutx" name="attr_XPT" style="font-weight: bold; text-align: center"/>
+                    </h4>
+                </div>
+                <br>
+                <h3 align="center">Virtudes</h3>
+            <div class="sheet-backot">
+                <div class="sheet-row">
+                    
+                    <table style="width:100%; margin-left: -10px; margin-top:0px">
+                         
+                         <tr >
+    <td><select name="attr_CouCEsc" class="sheet-posto" style="width: 150px">
+                        <option value="Consciencia">Consciência</option>
+                        <option value="Conviccao">Convicção</option>
+                    </select></td>
+    <td></td>
+    <td style="padding-left: 10px">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_CouCValor" value="0" class="zero" /><span></span>
+                    <input type="radio" name="attr_CouCValor" value="1" checked/><span></span>
+                    <input type="radio" name="attr_CouCValor" value="2" /><span></span>
+                    <input type="radio" name="attr_CouCValor" value="3" /><span></span>
+                    <input type="radio" name="attr_CouCValor" value="4" /><span></span>
+                    <input type="radio" name="attr_CouCValor" value="5" /><span></span>  </tr>
+  </tr>
+                         
+                    </table>
+                    
+                    <table style="width:100%; margin-left: -10px; margin-top:0px">
+                         
+                         <tr >
+    <td><select name="attr_AouIEsc" class="sheet-posto" style="width: 150px">
+                        <option value="Consciencia">Autocontrole</option>
+                        <option value="Conviccao">Instinto</option>
+                    </select></td>
+    <td></td>
+    <td style="padding-left: 10px">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_AouI" value="0" class="zero" /><span></span>
+                    <input type="radio" name="attr_AouI" value="1" checked/><span></span>
+                    <input type="radio" name="attr_AouI" value="2" /><span></span>
+                    <input type="radio" name="attr_AouI" value="3" /><span></span>
+                    <input type="radio" name="attr_AouI" value="4" /><span></span>
+                    <input type="radio" name="attr_AouI" value="5" /><span></span>  </tr>
+  </tr>
+                         
+                    </table>
+                    
+                    
+                    <table style="width:100%; margin-left: 57px; margin-top:0px">
+                         
+                         <tr >
+    <td>
+    <h4 >Coragem</h4>    
+    </td>
+    <td></td>
+    <td style="padding-left: 14.5px">
+                <div class="sheet-row">
+                    <input type="radio" name="attr_Courage" value="1" checked /><span></span>
+                    <input type="radio" name="attr_Courage" value="2" /><span></span>
+                    <input type="radio" name="attr_Courage" value="3" /><span></span>
+                    <input type="radio" name="attr_Courage" value="4" /><span></span>
+                    <input type="radio" name="attr_Courage" value="5" /><span></span>  </tr>
+                         
+                    </table>
+
+                </div>
+                <br>
+                
+                
+            </div>
+            <br>
+            <div class="sheet-qed">
+            <h3 align="center">Equipamentos e Pertences</h3>
+            <textarea name="attr_equipamentos" style="margin-left: -1px; height: 120px; text-align: justify"></textarea>
+            </div>
+            
+            <div class="sheet-qed">
+            <h3 align="center">Fraqueza do Clã</h3>
+            <textarea name="attr_fraquezaClan" style="margin-left: -1px; height: 120px; text-align: justify"></textarea>
+            </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+                
+                
+                
+                
+
+
+</div>
+
+</div>
+
+</div>
+
+	
+
+	
+
+
+
+    
+    </div>
+</div>
+
+
+</div>
+
+<div class="sheet-colrow sheet-tab-content sheet-tab2">
+    <div class="sheet-col sheet-gear2" style="width:48%">
+        <h3 style="margin-left:-11px">Informações pessoais</h3>
+        <textarea name="attr_othernotes" class="sheet-gear2" style="margin-left: -11px; height: 500px; text-align: justify"></textarea>
+    </div>
+    <div class="sheet-col sheet-gear2" style="width:48%">
+        <h3 style="margin-left:24px">Anotações</h3>
+        <textarea name="attr_Diario" class="sheet-gear2" style="margin-left: 7px; height: 500px; text-align: justify"></textarea>
+    </div>
+    
+
+</div>
+</div>
+</div>
+</div>
+
+<!--Expanded Backgrounds--> 
+
+
+<!--Experience sheet-->
+
+
+<!-- Generic Roll Templates -->
+<rolltemplate class="sheet-rolltemplate-generic">
+    <table class="sheet-rolltemplate-generic">
+        <tr>
+            <td colspan="2" class="sheet-header">
+            <div class="sheet-header-table">
+				<span class="sheet-header-middle">
+				{{#character_name}}
+				{{#character_id}}[{{character_name}}](http://journal.roll20.net/character/{{character_id}}){{/character_id}}
+				{{^character_id}}{{character_name}}{{/character_id}}
+				{{#name}}:{{/name}}
+				{{/character_name}}
+				{{#name}}
+				{{#name_link}}[{{name}}]({{name_link}}){{/name_link}}
+				{{^name_link}}{{name}}{{/name_link}}
+				{{/name}}
+				</span>
+			</div>
+            </td>
+        </tr>
+        {{#subtitle}}
+        <tr><td colspan="2" class="sheet-subtitle"><div class="sheet-header-table"><span class="sheet-header-middle">{{subtitle}}</span></div></td></tr>{{/subtitle}}
+        {{#allprops() character_name character_id name_link subtitle}}
+        <tr><td>{{key}} : {{value}}</td></tr>
+        {{/allprops() character_name character_id name_link subtitle}}
+        {{#DisciplineDetails}}
+        <tr><td colspan="2" class="sheet-descricao"><div class=""><span class="">{{DisciplineDetails}}</span></div></td></tr>{{/DisciplineDetails}}
+	</table>
+</rolltemplate>
+
+<script type="text/worker">
+	// Every time the sheet is opened, this runs asychronously so it shouldn't slow anything down
+	on("sheet:opened", function() {
+	// Get the misspelled attr if it exists
+		getAttrs(['bi4'], function(attrs) {
+		var updates = {};
+		// Check if the attribute exists and is not blank
+		if(attrs.bi4 && attrs.bi4 !== '') {
+			// Copy value to new, correctly spelled attr
+			updates.Abi4 = attrs.bi4;
+			// Blank old value, so it won't get coppied next time
+			updates.bi4 = '';
+			// Push the new values to the respective attrs
+			setAttrs(updates);
+			}
+		});
+	// Get the misspelled attr if it exists
+		getAttrs(['Corresondence'], function(attrs) {
+		var updates = {};
+		// Check if the attribute exists and is not blank
+		if(attrs.Corresondence && attrs.Corresondence !== '') {
+			// Copy value to new, correctly spelled attr
+			updates.Correspondence = attrs.Corresondence;
+			// Blank old value, so it won't get coppied next time
+			updates.Corresondence = '';
+			// Push the new values to the respective attrs
+			setAttrs(updates);
+			}
+		});
+	});
+</script>
